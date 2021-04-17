@@ -18,6 +18,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   print('Test new added change');
+  print('Test cloned');
 
   //-------------------------------------------------------------------------------------------------------------------> Waiting for UserPreferences() initialize then load it into _savedID
   _savedID = "";
