@@ -17,6 +17,8 @@ void main() async {
   //Add this line to resolve "ERROR: ServicesBinding.defaultBinaryMessenger was accessed before the binding was initialized.
   WidgetsFlutterBinding.ensureInitialized();
 
+  print('Test new added change');
+
   //-------------------------------------------------------------------------------------------------------------------> Waiting for UserPreferences() initialize then load it into _savedID
   _savedID = "";
   await UserPreferences().init(); //defined in "utils.dart"
